@@ -1,5 +1,7 @@
 # Consultabot test network
 
+## Put your api key in the .env file
+
 ## Build the image
 Remember to do this after you edit the app
 
@@ -12,3 +14,7 @@ Remember to do this after you edit the app
 ## Run several
 
 `docker-compose up -d`
+
+## Stop
+
+`docker stop consultabottestclient-app1-1 consultabottestclient-app2-1 consultabottestclient-app1-1`
